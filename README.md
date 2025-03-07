@@ -31,23 +31,12 @@ git clone https://github.com/yourusername/laptop-income-ml.git
 cd laptop-income-ml
 ```
 
-### 2. Create a Virtual Environment (Optional but Recommended)
-```sh
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-```
-
-### 3. Install Dependencies
-```sh
-pip install -r requirements.txt
-```
-
-### 4. Run the Jupyter Notebook
+### 2. Run the Jupyter Notebook
 ```sh
 jupyter notebook
 ```
-- Open **Regression_Laptop_Price.ipynb** to explore laptop price prediction.
-- Open **Classification_Income.ipynb** to analyze and predict income classification.
+- Open **Regression.ipynb** to explore laptop price prediction.
+- Open **Classification.ipynb** to analyze and predict income classification.
 
 ## Machine Learning Models & Results
 ### 1. Laptop Price Prediction (Regression)
@@ -69,17 +58,7 @@ jupyter notebook
 - **Linear Regression worked well for laptop price prediction**, capturing 93% of variance in price.
 - **KNN showed better recall than Logistic Regression** for income classification, making it preferable when capturing high-income individuals is a priority.
 
-## Links
-- Dataset sources:
-  - [Laptop Dataset](https://example.com/laptop-dataset)
-  - [Adult Income Dataset](https://archive.ics.uci.edu/ml/datasets/adult)
 - Jupyter Notebooks:
-  - [Regression Notebook](https://github.com/yourusername/laptop-income-ml/blob/main/Regression_Laptop_Price.ipynb)
-  - [Classification Notebook](https://github.com/yourusername/laptop-income-ml/blob/main/Classification_Income.ipynb)
+  - [Regression Notebook](https://github.com/aayushsingh2708/Final_Intro_to_Data/blob/main/Regression.ipynb)
+  - [Classification Notebook](https://github.com/aayushsingh2708/Final_Intro_to_Data/blob/main/Classification.ipynb)
 
----
-🚀 **Contributions & Issues**
-Feel free to open issues or contribute improvements to this project!
-
-📧 **Contact**
-For questions or feedback, reach out via GitHub or email.
